@@ -9,8 +9,9 @@ Hago herramientas para documentar la infraestructura de una empresa **en un solo
 | 🗄 | **[RackScope](https://github.com/marcosblg/rackscope)** | **Dónde** está cada equipo: racks, bocas y cables | [Demo](https://marcosblg.github.io/rackscope/) |
 | 🌐 | **[SubnetScope](https://github.com/marcosblg/subnetscope)** | **Qué IP** tiene: subredes, VLANs, DHCP, IPv6 y NAT | [Demo](https://marcosblg.github.io/subnetscope/) |
 | 🚦 | **[AssetScope](https://github.com/marcosblg/assetscope)** | **Qué es y cuándo caduca**: inventario, garantías y fin de soporte | [Demo](https://marcosblg.github.io/assetscope/) |
+| 🔐 | **[CertScope](https://github.com/marcosblg/certscope)** | **Qué certificado vence**: certificados TLS y dominios, pegando el PEM | [Demo](https://marcosblg.github.io/certscope/) |
 
-Las tres se hablan entre sí: los equipos de RackScope pasan a SubnetScope para darles IP y a AssetScope para su inventario. Y vienen más en camino.
+RackScope, SubnetScope y AssetScope se hablan entre sí: los equipos de RackScope pasan a SubnetScope para darles IP y a AssetScope para su inventario. Y vienen más en camino.
 
 ¿Te falta algo? Pídelo en los *issues* de cada herramienta: casi todo lo que se ha pedido ya está hecho.
 
@@ -18,4 +19,4 @@ Las tres se hablan entre sí: los equipos de RackScope pasan a SubnetScope para 
 
 ---
 
-<sub>**English** · Sysadmin who builds single-file HTML tools to document IT infrastructure — no server, no install, nothing leaves your machine. **RackScope** (where each device is), **SubnetScope** (which IP it has) and **AssetScope** (what it is and when it expires). All open source (AGPL-3.0), in English and Spanish.</sub>
+<sub>**English** · Sysadmin who builds single-file HTML tools to document IT infrastructure — no server, no install, nothing leaves your machine. **RackScope** (where each device is), **SubnetScope** (which IP it has), **AssetScope** (what it is and when it expires) and **CertScope** (which TLS certificate or domain expires next). All open source (AGPL-3.0), in English and Spanish.</sub>
